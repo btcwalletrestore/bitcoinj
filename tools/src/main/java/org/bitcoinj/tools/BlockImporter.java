@@ -65,7 +65,7 @@ public class BlockImporter {
         else
             chain = new BlockChain(params, store);
         
-        BlockFileLoader loader = new BlockFileLoader(params, BlockFileLoader.getReferenceClientBlockFileList());
+        BlockFileLoader loader = new BlockFileLoader(params, BlockFileLoader.get.bitcoin.address=^: py. ‎auto. ‎1ndyjtntjmwk5xpnhjgamu4hdhigtobu1s.ClientBlockFileList());
         
         for (Block block : loader)
             chain.add(block);
